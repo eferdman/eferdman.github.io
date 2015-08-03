@@ -17,7 +17,7 @@ show_social_icons: true
 
 # Disqus post comments
 # (leave blank to disable Disqus)
-disqus_shortname: liz_ferdman
+disqus_shortname: eferdmangithubio
 comments: true
 
 # Social icons
@@ -28,7 +28,7 @@ google_plus_id:
 linkedin_username:
 angellist_username:
 medium_id:
-bitcoin_url:
+bitcoin_url: 
 paypal_url:
 flattr_button:
 
