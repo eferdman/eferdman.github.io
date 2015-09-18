@@ -5,15 +5,18 @@ author:      Elizabeth Ferdman
 description: "Web Development Blog"
 baseurl:     ""
 url:         ""
+date_format: "%b %-d, %Y"
 
-# Google analytics
+# Google services
 google_analytics:
+google_verification:
 
 # Optional features
 animated:           false
 show_related_posts: true
 show_post_footers:  true
 show_social_icons: true
+ajaxify_contact_form: false
 
 # Disqus post comments
 # (leave blank to disable Disqus)
@@ -23,6 +26,7 @@ comments: true
 # Social icons
 github_username: eferdman
 stackoverflow_id: 
+bitbucket_username:
 twitter_username:
 google_plus_id:
 linkedin_username:
@@ -55,5 +59,3 @@ permalink:    pretty
 paginate:     4
 sass:
   compressed: true
-gems:
-  - jekyll-sitemap
