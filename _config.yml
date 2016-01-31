@@ -17,17 +17,26 @@ show_related_posts: true
 show_post_footers:  true
 show_social_icons: true
 ajaxify_contact_form: false
+enable_mathjax: false
 
 # Disqus post comments
 # (leave blank to disable Disqus)
 disqus_shortname: eferdmangithubio
 comments: true
 
+# Facebook Comments plugin
+# (leave blank to disable Facebook Comments, otherwise set it to true)
+facebook_comments:
+facebook_appid:
+facebook_comments_number: 10
+
 # Social icons
 github_username: eferdman
 stackoverflow_id: 
 bitbucket_username:
 twitter_username:
+skype_username:
+steam_nickname:
 google_plus_id:
 linkedin_username:
 angellist_username:
@@ -39,6 +48,7 @@ flattr_button:
 # Post sharing icons
 show_sharing_icons: true
 share_text: 'Share:'
+show_sharing_icons: false
 # Change to 'true' to enable individual icons
 share_facebook: true
 share_twitter: true
@@ -50,6 +60,39 @@ share_reddit: true
 share_stumbleupon: false
 share_hackernews: false
 
+text:
+  pagination:
+    newer: 'Newer'
+    older: 'Older'
+  share_buttons:
+    text:         'Share this post!'
+    facebook:     'Share on Facebook'
+    twitter:      'Share on Twitter'
+    googleplus:   'Share on Google+'
+    linkedin:     'Share on LinkedIn'
+    digg:         'Share on Digg'
+    tumblr:       'Share on Tumblr'
+    reddit:       'Share on Reddit'
+    stumbleupon:  'Share on StumbleUpon'
+    hackernews:   'Share on Hacker News'
+  post:
+    updated:        'Updated'
+    minute_read:    'minute read'
+    related_posts:  'Related Posts'
+  index:
+    coming_soon: 'Coming soon...'
+  contact:
+    email:    'Email Address'
+    content:  'What would you like to say?'
+    subject:  'New submission!'
+    submit:   'Say Hello'
+    ajax:
+      sending:  'sending..'
+      sent:     'Message sent!'
+      error:    'Error!'
+  thanks: 'Thanks for stopping by. :)'
+
+
 # Build settings
 markdown:     kramdown
 highlighter: pygments
@@ -59,3 +102,8 @@ permalink:    pretty
 paginate:     4
 sass:
   compressed: true
+gems:
+  - jekyll-paginate
+  - jekyll-sitemap
+# https://github.com/jekyll/jekyll/issues/2938
+exclude: [vendor]
