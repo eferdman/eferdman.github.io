@@ -1,5 +1,5 @@
 # Site settings
-title:       Blog
+title:       Bloggeroni
 email:       eferdman2@gmail.com
 author:      Elizabeth Ferdman
 description: "Web Development Blog"
@@ -34,7 +34,7 @@ facebook_comments_number: 10
 github_username: eferdman
 stackoverflow_id: 
 bitbucket_username:
-twitter_username:
+twitter_username: lizacapriza
 skype_username:
 steam_nickname:
 google_plus_id:
@@ -48,9 +48,8 @@ flattr_button:
 # Post sharing icons
 show_sharing_icons: true
 share_text: 'Share:'
-show_sharing_icons: false
 # Change to 'true' to enable individual icons
-share_facebook: true
+share_facebook: false
 share_twitter: true
 share_googleplus: false
 share_linkedin: false
