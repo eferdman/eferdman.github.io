@@ -12,10 +12,10 @@ google_analytics:
 google_verification:
 
 # Optional features
-animated:           false
-show_related_posts: true
-show_post_footers:  true
-show_social_icons: true
+animated:             false
+show_related_posts:   true
+show_post_footers:    true
+show_social_icons:    true
 ajaxify_contact_form: false
 enable_mathjax: false
 
@@ -34,7 +34,7 @@ facebook_comments_number: 10
 github_username: eferdman
 stackoverflow_id: 
 bitbucket_username:
-twitter_username: lizacapriza
+twitter_username: 
 skype_username:
 steam_nickname:
 google_plus_id:
@@ -93,7 +93,7 @@ text:
 
 
 # Build settings
-markdown:     kramdown
+markdown:    kramdown
 highlighter: pygments
 redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']
